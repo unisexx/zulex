@@ -1,0 +1,359 @@
+html,body { margin:0; padding:0; font-family:Tahoma, Geneva, sans-serif; font-size:13px; color:#012755; background:#0B2540; }
+
+a{outline:0;}
+a:link {color:#fff; text-decoration:none;}
+a:visited {color: #fff; text-decoration:none;}
+a:hover {color: #fff; text-decoration:underline;}
+a:active {color: #fff; text-decoration:none;}
+
+.clear{clear:both;}
+
+#wrapper { margin:0 auto; width:990px;}
+#header{background:url(../images/header_bg.jpg) no-repeat; position:relative;}
+
+#h_rblog{position:absolute; top:5px; right:10px; color:#FFF;}
+
+/*********************** Header Menu ***********************/
+#navigation {height: 34px; margin-left: 9px;}
+.nav{height: 35px; list-style: none; line-height: 35px; padding-top:2px;}
+.nav li{float:left;}
+.nav li a{float:left; display:block; height:34px; text-decoration:none; padding-left:5px; color:#FFF;}
+.nav li a span{ height:34px; width:115px; text-align:center; float: left; display: block; padding: 0 10px 0 4px; /*Padding of menu items*/}
+.nav li.current a, .nav li a:hover{color: #fff; /*left tab image path*/ background-position: left bottom; background-image: url(../images/h_memu_2.jpg); background-repeat: no-repeat;}
+.nav li.current a span, .nav li a:hover span{ color: #fff; /*right tab image path*/background-image: url(../images/h_memu_2.jpg);background-repeat: no-repeat;background-position: right bottom;}
+.nav li a{color: #fff; /*left tab image path*/ background-position: left top; background-image: url(../images/h_memu_2.jpg);background-repeat: no-repeat;}
+.nav li a span{ color: #fff; /*right tab image path*/ background-image: url(../images/h_memu_2.jpg); background-repeat: no-repeat; background-position: right top;}
+
+
+.search button.btn {background: url("../images/search_btn.jpg") no-repeat scroll right top;cursor: pointer;text-indent: -9999px;border:none;margin:0 0 0 -6px;}
+
+#h_line{background:url(../images/h_line.png) repeat-x; height:12px;}
+
+#hori_menubar{background:url(../images/stripe_bar.png) repeat-x; height:41px;}
+#hori_menubar ul li{float:left; display:block; margin:8px 68px;}
+#hori_menubar ul li a{font-size:14px;}
+
+#bodywrap-content{background:#DDDBD1; padding:10px; margin:10px;}
+#bodywrap-content .header-bar h1{color:#fff;}
+#bodywrap-content .header-bar2 h1{color:#fff;}
+
+#footer_wrap{padding:10px;}
+#footer{background:#6F97BC;}
+#copyright,#footer_menu{display:inline; font-size:10px;}
+#copyright{float:left; color:#FFF;}
+#footer_menu{float:right; color:#FFF;}
+
+/*********************** index Menu ***********************/
+#indexmenu{background:#ADAFAA; margin: 0 10px; padding: 15px;}
+#indexmenu ul li img{margin:0 8px;}
+#indexmenu ul li{display:inline;}
+#indexmenu .blog{float:left; width:215px; font-size:13px; margin:5px 8px;}
+
+#indexmenu .blog{height:75px;position:relative; }
+#indexmenu .blog li  img{position:absolute; top:0; left:0;}
+
+/*********************** validate form ***********************/
+input.error,textarea.error {border: 1px solid #CC0000;}
+#form label.error {color:#CC0000; float:none; margin-left:5px; width: auto;}
+
+/*************************** index ***************************/
+#index .blog{float:left; width:157px; font-size:13px;}
+#index #bodywrap-content a{color:#012755;}
+#index #overfooter_menu{background:#ADAFAA; padding:10px; margin:10px;}
+#index #overfooter_menu ul{width:940px; margin:0 auto;}
+#index #overfooter_menu ul li{float:left; margin:0 9px;}
+#index table td,#product  table td{border-bottom:1px dashed #102755; padding:0 0 17px 0;}
+
+/*************************** highlight ***************************/
+#highlight{background:url(../images/highlight_bg.jpg) no-repeat; height:412px;}
+
+/************************** register **************************/
+.breadcrumb{margin:7px 0 15px 20px; color:#FFC600;}
+
+#register .header-bar{background: url("../images/singup_bar.png") no-repeat scroll 0 0 transparent;height: 34px;margin: 0 auto;padding: 15px 0 0 45px;width: 867px;}
+.header-bar h1,.header-bar2 h1{font-size:14px;}
+#register #bodywrap-content h2{font-size:14px; margin:5px 0 10px 65px;}
+#form{margin:0 0 0 200px;}
+#form p{clear: left; margin: 0; padding: 5px 0 8px 0; padding-left: 205px; /*width of left column containing the label elements*/ height: 1%;}
+#form input[type=text],#form input[type=password]{width:293px;}
+#form textarea{width: 293px; height: 50px;}
+#form label{float: left; margin-left: -215px; /*width of left column*/ width: 215px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+/************************** resellers register **************************/
+#resellers-register .header-bar{background:url(../images/regis_dealer_bar.png) no-repeat; width:876px; height:34px; padding:15px 0 0 53px; margin: 0 auto;}
+#resellers-register #bodywrap-content h2{font-size:14px; margin:5px 0 10px 65px;}
+
+/************************** contact us **************************/
+#zulex-company h1{font-size:18px; font-weight:bold; color:#0558C1; margin:0 0 15px 20px;}
+#zulex-company strong{font-weight:bold;}
+#zulex-company ol{margin:0 0 15px 0;}
+#zulex-company ol li{list-style-type:disc; margin:0 0 0 35px;}
+#zulex-company #col1{float:left; margin:0 0 0 40px;}
+#zulex-company #col1 table tr td{height:55px; vertical-align:top; font-size:13px;}
+#zulex-company #col2{float:left; margin:0 0 0 25px;}
+#zulex-company #col3 img{background:#A3B5CB; padding:4px; -moz-border-radius:5px 5px;}
+#zulex-company .borderimg{background:#A3B5CB; padding:4px;}
+#zulex-company #col3 {float:right; margin:0 45px 0 0;}
+#contacts .header-bar{background:url(../images/contact_bar2.png) no-repeat; width:855px; height:34px; padding:8px 0 0 50px; margin: 0 auto;}
+#contacts .header-bar2{background: url("../images/contact_bar.png") no-repeat scroll 0 0 transparent; height: 45px;margin: 0 auto;padding: 16px 0 0 50px;width: 860px;}
+#contacts .detail1{margin:0 0 20px 20px; line-height:23px;}
+
+/************************** resellers **************************/
+#resellers .header-bar{background: url("../images/dealer_bar.png") no-repeat scroll 0 0 transparent;height: 34px;margin: 0 auto;padding: 18px 0 0 60px;width: 858px;}
+#resellers #col1{float:left; width:515px; padding:0 20px}
+#resellers #col2{float:right;}
+#resellers .provincial{color:#02753C; font-size:16px; font-weight:bold; text-align:center; margin:20px 0 10px 0;}
+#resellers .navcentre{display:table; margin:0 auto; padding:2px;}
+#resellers .navcentre a{color:#012755;}
+#resellers .navcentre ul {margin: 0; padding: 0;}
+#resellers .navcentre ul li {float:left; padding:0 0 10px 0;}
+#resellers .navcentre ul li a{margin:0 0 0 5px;}
+
+/************************** resellers sub-category **************************/
+#resellers-subcategory .header-bar{background:url(../images/bar.png) no-repeat; width:890px; height:34px; padding:8px 0 0 15px; margin: 0 auto;}
+#resellers-subcategory .alphabet{font-size:14px; font-weight:bold; margin:15px 0 5px 0;}
+#resellers-subcategory .district{margin:0 0 0 5px;}
+#resellers-subcategory .district a{color:#012755;}
+#resellers-subcategory .col{float:left; width:255px;}
+#resellers-subcategory .key0{margin:0 0 0 155px; }
+
+/************************** resellers store **************************/
+#resellers-store .header-bar{background:url(../images/reseller_bar.png) no-repeat; width:906px; height:40px; padding:8px 0 0 15px; margin: 0 auto;}
+#resellers-store h1{font-size:16px; color:#FFCC00; margin:9px 0 15px 45px;}
+#resellers-store #blog-wrap{padding:0 0 0 35px;}
+#resellers-store .blog{background:#B8C5D6; border:1px solid #0C2A50; width:388px; float:left; padding:5px 15px; margin:10px;}
+#resellers-store .blog h3{border-bottom:1px solid #959595; color:#ED3135; padding:0 0 5px 0; margin:0 0 10px 0; font-weight:bold;}
+#resellers-store .blog .image{padding:4px; background:#5A708C; float:left; -moz-border-radius:5px;}
+#resellers-store table{font-size:12px; line-height:20px; margin:15px 0 0 0;}
+#resellers-store table th{vertical-align:top; color:#00597A; font-weight:bold;}
+#resellers-store table td{color:#0281B1;}
+
+/************************** news **************************/
+#new .header-bar{background:url(../images/news_bar.png) no-repeat; width:860px; height:40px; padding:9px 0 0 45px; margin: 0 auto;}
+#new .blog{border-bottom:1px dashed #001E3A; padding:10px; margin:0 50px;}
+#new .blog h2 a{font-size:15px; color:#144D96;}
+#new .blog .tag{color:#144D96;}
+#new .blog p{color:#001E3A; height:74px; overflow:hidden; line-height:18px; margin:5px 0 0 0;}
+#new .blog .imageheader-news{float:left; margin:0 20px 0 0;}
+#new .blog .imageheader-news img{border:2px solid #B4C1D2;}
+#new .blog ul{margin:10px 0 0 0;}
+#new .image-list{display:inline; margin:0 3px 0 0;}
+#new .image-list img{border:1px solid #43546A; opacity:0.5;}
+#new .image-list img:hover{opacity:1.0;}
+
+/************************** news detail **************************/
+#new .wrap{padding:0 30px;}
+#new .wrap .image{background:#B8C5D6; margin:10px 0 0 0; padding:10px;}
+#new .wrap .image h3{font-size:14px; margin:0 0 10px 0;}
+#new .image-list2{display:inline; margin:0 3px 0 0;}
+#new .image-list2 img{border:1px solid #43546A;}
+#new #bodywrap-content .detail a{color:#416798;}
+
+/************************** product **************************/
+#product .header-bar{background: url("../images/product_bar3.png") no-repeat scroll 0 0 transparent;height: 32px;margin: 0 auto;padding: 15px 0 0 50px;width: 861px;}
+#product .header-bar h1{color:#FFF;}
+#product #bodywrap-content{margin:0 10px 10px;}
+#product #bodywrap-content a{color:#012755;}
+#product .blog{float:left; width:157px; font-size:13px;}
+
+#product .blog,#index .blog{height:129px;position:relative; }
+#product .blog li  img,#index .blog li  img{position:absolute; top:0; left:0;}
+#product .blog h3,#index .blog h3{position:absolute; bottom:0; left:0; width:160px;}
+
+/************************** product category **************************/
+#product-category #blog-wrap{padding:10px 0 0 25px;}
+#product-category .blog{float:left;}
+#product-category .blog .header{background:url(../images/product_catagory_header.png) no-repeat; width:269px; height:39px;}
+#product-category .blog .body{background:url(../images/product_catagory_body.png) repeat-y; min-height:365px; padding: 0 10px; width: 249px;}
+#product-category .blog{margin:0 15px;}
+#product-category .blog h1{color:#FFEA00; text-align:center; font-size:16px; padding:10px 0 0 0;}
+#product-category .blog .body ul li{border-bottom:1px dotted #fff; padding:10px;}
+#product-category .blog .footer{background:url(../images/product_catagory_footer.png) no-repeat; width:269px; height:8px;}
+
+/************************** product more **************************/
+#product-more .header-bar{background:#354253;margin: 0 auto; padding: 0 0 7px;width: 945px;}
+#product-more h1{font-size:15px; color:#FFCC00; text-align:center; padding:8px 0 0 0;}
+#product-more #bodywrap-content{width:925px; margin:0 auto; background:#DDDBD1; border: solid #0A2950; border-width: 0 1px 1px; padding:10px;}
+#product-more #bodywrap-content .blog{padding:20px;}
+#product-more #bodywrap-content .blog img{float:left; margin:0 20px 0 0;}
+#product-more #bodywrap-content .blog h2 a{font-size:15px;}
+#product-more #bodywrap-content .detail{float:right; width:645px; height:80px; overflow:hidden; margin:5px 0 0 0; line-height:20px;}
+#product-more #bodywrap-content .even{background:#ADAFAA;}
+#product-more #bodywrap-content .even h2 a{color:#BA0404; display:inline;}
+#product-more #bodywrap-content .even .detail{color:#012755;}
+#product-more #bodywrap-content .even .detail ul li{list-style-image:url("../images/orange_dot.png"); margin:0 0 0 13px;}
+#product-more #bodywrap-content .odd{background:#6B8BB2;}
+#product-more #bodywrap-content .odd h2 a{color:#BA0404; display:inline;}
+#product-more #bodywrap-content .odd .detail{color:#FFFFFF;}
+#product-more #bodywrap-content .odd .detail ul li{list-style-image:url("../images/orange_dot.png"); margin:0 0 0 13px;}
+
+/************************** product detail **************************/
+.margintop20{margin-top:20px;}
+#product-detail .addthis{float:right; padding:0 12px 0 0; color:#fff; margin:0 0 5px 0;}
+#product-detail #bodywrap-content h1{color:#285A99; font-size:24px; margin:0 0 15px 0;}
+#product-detail #bodywrap-content #row1{width:450px; float:left; margin-left:30px;}
+#product-detail #bodywrap-content #row2{width:415px; float:right; margin-right:32px;}
+#product-detail #bodywrap-content #row2 img{padding:5px; background:#A9BED9; -moz-border-radius:5px;}
+#product-detail #bodywrap-content .col1{margin:0 0 10px 0;}
+#product-detail #bodywrap-content #row2 iframe{width:415px; height:254px;}
+#product-detail #bodywrap-content #detail-header{background:url(../images/black_bar.png) no-repeat; width:922px; height:32px; margin: 40px auto 0;}
+#product-detail #bodywrap-content #detail-header h2{font-size:14px; padding:7px 0 0 20px;}
+#product-detail #bodywrap-content #detail-header h2 a{color:#FFF;}
+
+#product-detail #bodywrap-content #detail-body{background:#ADAFAA; margin:10px auto 0; color:#000;}
+#product-detail #bodywrap-content #detail-body{padding:10px 20px; line-height:20px; margin:15px;}
+#product-detail #bodywrap-content #detail-body a{color:#000;}
+#product-detail #bodywrap-content #detail-body .header_bg h3{color:#FFF; font-size:16px; font-weight:bold; padding-top:3px;}
+#product-detail #bodywrap-content #detail-body .content{padding:10px 20px;}
+#product-detail #bodywrap-content #detail-body .content h2{font-size:15px;}
+#product-detail #bodywrap-content #detail-body ul li{list-style-image:url("../images/yellow_dot.png"); margin:0 0 0 15px; line-height:25px;}
+#product-detail #bodywrap-content #detail-body .blog{float:left; padding:0 9px;}
+#product-detail #bodywrap-content #detail-body .blog .title{text-align:center;}
+#product-detail #bodywrap-content #detail-body .blog .title a{color:#1315F5;}
+#product-detail .product_mornitor img{float:left; margin:5px 19px;}
+
+/************************** about us **************************/
+#about .header-bar{background:url(../images/about_bar.png) no-repeat; width:853px; height:30px; margin: 0 auto; padding:13px 0 0 60px;}
+#about .header-bar h1{color:#FFF;}
+#about #bodywrap-content .detail{padding:15px 25px;}
+
+/************************** wallpaper **************************/
+#wallpaper .header-bar{background:url(../images/bar.png) no-repeat; width:890px; height:34px; padding:8px 0 0 15px; margin: 0 auto;}
+#wallpaper ul{padding:0 50px;}
+#wallpaper li {float: left;height: 180px;margin: 10px 16px;padding: 0;position: relative;width: 180px;}
+#wallpaper li.view{float: left;height: 180px;margin: 10px 16px;padding: 0;width: 180px;}
+#wallpaper span {background: url("../images/paper-clip.png") no-repeat scroll 0 0 transparent; display: block; height: 60px;l eft: -2px; position: absolute; top: -5px;width: 30px;}
+#wallpaper img {background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #CCCCCC; padding: 4px;}
+#wallpaper .txtgallery{text-align:center;}
+
+/************************** software&firmware **************************/
+#software .header-bar{background:url(../images/bar.png) no-repeat; width:890px; height:34px; padding:8px 0 0 15px; margin: 0 auto;}
+#software h2{background:#1383E1; padding:5px 10px; color:#fff; width:860px; margin:15px auto 0; font-weight:bold;}
+#software .software-item{width:860px; margin:0 auto; padding:10px; background:#D2E9FF;}
+#software .software-item ul{background:#F8F8F8; padding:5px;}
+#software .software-item ul li{border-bottom:1px dotted #CFCFCF;}
+#software .software-item ul li a{color:#072E4E;}
+
+/************************** software&firmware view page **************************/
+#software .view-content h2{background:#1383E1; padding:10px; color:#fff; width:860px; margin:15px auto 0; font-weight:bold;}
+#software .inner{background:#F8F8F8; padding:10px;}
+#software .inner h3{ font-size:18px; font-weight:bold; margin:0 0 10px 0;}
+#software .software-detail-wrap{border:1px dotted #CFCFCF; line-height:1.8em; padding:15px;}
+#software .software-detail-wrap a{color:#012755;}
+
+/************************** Search **************************/
+#data {background: none repeat scroll 0 0 #FFFFFF; height: 1030px; line-height: 18px; margin: 10px auto; overflow: hidden; padding: 15px; width: 875px;}
+
+/************************** What Fit in Your Car **************************/
+#what .header-bar{background:url(../images/bar.png) no-repeat; width:890px; height:34px; padding:8px 0 0 15px; margin: 0 auto;}
+#what #blog-wrap{padding:10px 0 0 25px;}
+#what .blog{float:left;}
+#what .blog .header{background:url(../images/product_catagory_header.png) no-repeat; width:269px; height:39px;}
+#what .blog .body{background:url(../images/product_catagory_body.png) repeat-y; min-height:235px; padding: 5px 10px 0; width: 249px;}
+#what .blog{margin:0 15px;}
+#what .blog h1{color:#FFEA00; text-align:center; font-size:16px; padding:6px 0 0 0;}
+#what .blog h1 img {vertical-align: middle;}
+#what .blog .body ul li{padding:1px 10px;}
+#what .blog .footer{background:url(../images/product_catagory_footer.png) no-repeat; width:269px; height:8px;}
+
+/************************** What Fit in Your Car - Form **************************/
+#what-form .blog{float:left;}
+#what-form .blog .header{background:#375274; width:920px; height:39px;}
+#what-form .blog .body{background:#809DC1; min-height:235px; padding: 5px 10px 0; width: 900px;}
+#what-form .blog{margin:0 15px;}
+#what-form .blog h1{color:#FFEA00; text-align:center; font-size:16px; padding:10px 0 0 0;}
+#what-form .blog .body ul li{padding:1px 10px;}
+
+/************************** Tip & Technic **************************/
+#tips .header-bar{background:url(../images/bar.png) no-repeat; width:890px; height:34px; padding:8px 0 0 15px; margin: 0 auto;}
+#tips h2{background:#1383E1; padding:5px 10px; color:#fff; width:860px; margin:15px auto 0; font-weight:bold;}
+#tips .software-item{width:860px; margin:0 auto; padding:10px; background:#F8F8F8;}
+#tips .odd {border-left:1px dashed #c6c6c6;}
+#tips .blog {border-bottom:1px dashed #c6c6c6; padding:0 10px; float:left; width:408px; }
+#tips .blog img{float:left; background:#eee; padding:3px; border:#c6c6c6 1px solid; margin:0 10px 0 0;}
+#tips .blog p{height:55px; overflow:hidden; line-height: 18px; text-indent: 20px; color:#555;}
+#tips .blog div{color:#888;}
+#tips .blog h3{font-weight:bold; height:19px; overflow:hidden;}
+#tips .blog a{color:#072E4E;}
+
+/************************** Tip & Technic view page **************************/
+#tips .view-content h2{background:#1383E1; padding:10px; color:#fff; width:860px; margin:15px auto 0; font-weight:bold;}
+#tips .inner{background:#F8F8F8; padding:10px;}
+#tips .inner h3{ font-size:18px; font-weight:bold; margin:0 0 10px 0;}
+#tips .software-detail-wrap{border:1px dotted #CFCFCF; line-height:1.8em; padding:15px;}
+#tips .software-detail-wrap a{color:#012755;}
+
+/************************** Connect White Up **************************/
+#connect .header-bar{background: url("../images/connect_bar.png") no-repeat scroll 0 0 transparent;height: 32px;margin: 0 auto;padding: 15px 0 0 50px;width: 861px;}
+#connect #menu{padding:10px 50px;}
+#connect .header-bar h1{color:#FFF;}
+#connect #bodywrap-content{margin:0 10px 10px;}
+#connect #bodywrap-content a{color:#012755;}
+#connect .blog{float:left; width:80px; font-size:13px; margin:5px 13px;}
+
+#connect .blog{height:105px;position:relative; }
+#connect .blog li  img{position:absolute; top:0; left:0;}
+#connect .blog h3{position:absolute; bottom:0; left:0; width:80px;}
+
+/************************** Carversion **************************/
+#carversion .header-bar{background: url("../images/carversion_bar.png") no-repeat scroll 0 0 transparent; height: 32px; margin: 0 auto; padding: 11px 0 0 75px; width: 853px;}
+#carversion #wrap{background:#6B8BB2; margin: 10px 35px; padding: 10px;}
+#carversion .blog{float:left; padding: 10px; width: 263px; border-left:1px dotted #D3D5D0;}
+#carversion .imgleft{float:left; margin:5px 15px 5px 5px;}
+
+/************************** WhatFit - Recommend Spec **************************/
+#recommend .header-bar{background: url("../images/carversion_bar.png") no-repeat scroll 0 0 transparent; height: 32px; margin: 0 auto; padding: 11px 0 0 75px; width: 853px;}
+#recommend .blog{margin:10px 20px; position:relative;}
+#recommend h3{ font-size:15px; font-weight:bold; text-indent:10px;}
+#recommend h4{color:#EDF1F6;}
+#recommend .product-set{background:#7593ba; border:1px solid #0b2540; padding:5px; margin:18px 0;}
+#recommend .box {float:left; padding:5px; border-right:1px dashed #edf1f6;}
+#recommend .box img{margin:3px 0;}
+#recommend .set-select{ position:absolute; right:10px; top:0;}
+
+/************************** WhatFit - Customize Spec **************************/
+#customize .header-bar{background: url("../images/carversion_bar.png") no-repeat scroll 0 0 transparent; height: 32px; margin: 0 auto; padding: 11px 0 0 75px; width: 853px;}
+#customize #chosen .col{width:144px; float:left; margin:0 2px;}
+#customize #chosen .box{background:url("../images/custom_bg.png"); width:120px; height:147px; padding:5px 10px; margin:0 2px;}
+#customize #chosen .blog{padding:10px 0 10px 33px;}
+#customize #chosen .box img{margin:0 0 5px 0;}
+#customize #chosen .subbox{background:#ABB4BD; border-bottom:1px solid #234169; margin: 0 8px; padding: 5px 0;}
+#customize #chosen div.blog div.col div.subbox h3{margin:0 0 5px 0;}
+#customize #chosen .subbox h2{color:#ECF0F6; text-align:center; padding:0 0 5px;}
+#customize h4{color:#7294BA; border-bottom:1px solid #0B2540; padding:0 0 5px 0; margin:0 0 10px 0;}
+.chooseme{cursor:pointer;}
+.chooseme img{margin:7px; background: transparent;
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); /* IE8 */   
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */      
+	zoom: 1;
+}
+#customize #submit_btn{ background: url("../images/custom_submit.png") no-repeat scroll left top transparent; border: 0 none; cursor: pointer; height: 28px; margin: 0; padding: 0; text-indent: -1000em; vertical-align: top; width: 96px;}
+
+/*edit*/
+#customize .chooseme{cursor:pointer; float:left;}
+#customize .blog2{background:#7593BA; padding:5px; margin:5px 15px; border:1px solid #0B2540;}
+#customize #chosen h3{font-weight:bold; text-indent:10px; margin:15px 0 0;}
+#customize .krob{float:left; border:none; border-right:1px dashed #EDF1F6;}
+
+/************************** WhatFit - Result2 **************************/
+#rs .header-bar{background: url("../images/carversion_bar.png") no-repeat scroll 0 0 transparent; height: 32px; margin: 0 auto; padding: 11px 0 0 75px; width: 853px;}
+#rs .blog{margin:0 11px 0 12px;}
+#rs .blog .header{background: url("../images/rs_bar.png") no-repeat scroll 0 0 transparent; height: 18px; padding:0 0 0 5px; width: 927px;}
+#rs .blog .header h1{color:#f2f2f2;}
+#rs .blog .body{background:#6B8BB2; padding:10px;}
+#rs .blog .body img{float:left; margin:0 10px 0 0;}
+#rs .blog .body div.detail ul li{color:#FEFEFE; list-style-image: url("../images/orange_dot.png"); margin: 0 0 0 230px;}
+#rs .blog .body h2 a{color:#BA0404;}
+
+/************************** footer **************************/
+#footer{padding:15px; margin:0 0 5px 0;}
+#footer #col1{float:left; width:61%;}
+#footer #col2,#footer #col3{float:right; width:19%;}
+#footer #col2 ul li,#footer #col3 ul li{display:block; width:100%;}
+#footer h3{color:#233859; font-weight:bold; margin:0 0 10px 0;}
+#footer ul{overflow:hidden;}
+#footer li{line-height:1.5em; float:left; display:inline;}
+#double li  { width:50%;} /* 2 col */
+#triple li  { width:33.333%; } /* 3 col */
+#quad li    { width:25%; } /* 4 col */
+#six li     { width:16.666%; } /* 6 col */
